@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geologica";
+  src: url("/fonts/Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  font-family: "Geologica", sans-serif;
+}
+
+/*::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+  background: transparent;
+  display: none;
+} */
+
+video {
+  display: block;
+  background-color: transparent;
+  clip-path: inset(10px, 10px);
+}
